@@ -9,7 +9,6 @@ require('babel/polyfill');
 var webpack = require('webpack');
 var path = require('path');
 
-var loaders = ['babel'];
 var port = process.env.PORT || 3000;
 
 var devtool;
@@ -61,7 +60,10 @@ module.exports = {
     loaders: [{
       test: /\.jsx?$/,
       exclude: /build|lib|bower_components|node_modules/,
-      loaders: loaders
+      loader: 'babel-loader',
+      options: {
+        plugins: ['react-hot-loader/babel']
+      }
     }, {
       test: /\.css$/,
       loaders: ['style', 'css']
