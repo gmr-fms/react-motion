@@ -1,8 +1,5 @@
-# GmrFms-React-Motion
-[![npm version](https://badge.fury.io/js/react-motion.svg)](https://www.npmjs.com/package/gmrfms-react-motion)
-[![Bower version](https://badge.fury.io/bo/react-motion.svg)](http://badge.fury.io/bo/react-motion)
-[![react-motion channel on discord](https://img.shields.io/badge/discord-react--motion%40reactiflux-738bd7.svg?style=flat)](https://discordapp.com/invite/0ZcbPKXt5bYzmcI0)
-
+# React-Motion
+[![npm version](https://badge.fury.io/js/react-motion.svg)](https://www.npmjs.com/package/@gmr-fms/react-motion)
 ```js
 import {Motion, spring} from 'react-motion';
 // In your render...
