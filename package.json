@@ -1,6 +1,6 @@
 {
-  "name": "react-motion",
-  "version": "0.5.2",
+  "name": "gmrfms-react-motion",
+  "version": "0.6.0",
   "description": "A spring that solves your animation problems.",
   "main": "lib/react-motion.js",
   "peerDependencies": {
@@ -56,7 +56,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/chenglou/react-motion.git"
+    "url": "https://github.com/gmr-fms/react-motion.git"
   },
   "keywords": [
     "react",
@@ -72,7 +72,8 @@
   ],
   "author": [
     "nkbt",
-    "chenglou"
+    "chenglou",
+    "jnarwold"
   ],
   "license": "MIT",
   "dependencies": {
