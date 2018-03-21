@@ -31,7 +31,6 @@ var entry = {
 
 if (process.env.NODE_ENV === 'development') {
   devtool ='eval-source-map';
-  loaders = ['react-hot'].concat(loaders);
   plugins = plugins.concat([
     new webpack.HotModuleReplacementPlugin()
   ]);
